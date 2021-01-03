@@ -1,0 +1,7 @@
+docker build -t esta/nginx:latest -f DockerFileNginx .
+docker build -t esta/postgresql:latest -f DockerFilePostgresql .
+docker build -t esta/php-fpm:latest -f DockerFilePHP .
+
+docker rm $(docker ps -a -f status=exited -q)
+docker rmi $(docker images -a -q)
+
