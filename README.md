@@ -1,9 +1,5 @@
 testrepo
-<<<<<<< HEAD
+HEAD
 Readme
 My project
 fetch & merge
-=======
-
-cantpull
->>>>>>> cant-pull
